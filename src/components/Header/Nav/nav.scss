@@ -1,0 +1,41 @@
+@use '../../../styles/variables' as style;
+.navbar{
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    margin: auto;
+    width: 100vw;
+    transition: 2s;
+
+    li{
+        margin-right:5px;
+    }
+
+    a{
+        color:white;
+    }
+
+    .brand{
+      
+        font-weight:bold
+    }
+    .navContent, .navbarMenu{
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .navbarGroup{
+        width: 60%;
+    }
+    
+    .toggle{
+        display: none;
+    }
+}
+
+.active{
+    background-color: rgba(style.$color-primary,50%)
+}
+
+
+

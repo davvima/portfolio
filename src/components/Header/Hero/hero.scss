@@ -1,0 +1,32 @@
+.hero{
+    margin-top: 100px !important;
+
+    .name{
+        color:orange
+    }
+    h3.name{
+        font-weight: normal;
+        margin-bottom:10px;
+    }
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:900px){
+    .hero{
+        display:flex;
+        justify-content:space-between;
+
+        h1{
+            font-size: 4em;
+        }
+        h2{
+            font-size:2.3em
+        }
+    }
+    
+}

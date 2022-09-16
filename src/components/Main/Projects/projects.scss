@@ -1,0 +1,36 @@
+#projects{
+     h2{
+    text-align: center;
+    margin:30px
+     }
+}
+
+@media (min-width: 550px){
+    .grid{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:50px;
+
+        .card{
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        
+    }
+
+}
+
+@media (min-width: 1250px){
+    .grid{
+        gap:20px;
+        justify-content: space-between;
+
+        .card{
+            width: 22%;
+        }
+        
+    }
+    
+
+}

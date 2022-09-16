@@ -1,0 +1,22 @@
+.skillBox{
+    display: flex;
+    margin: 20px auto;
+    padding:50px 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: rgb(4, 4, 69);
+    border-radius: 50px;
+
+
+    .skill{
+        display: flex;
+        flex-direction: column;
+    
+      .icons{
+        max-height: 50px;
+        object-fit: contain;
+        margin: 20px;
+      }
+    }
+}

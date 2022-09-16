@@ -1,0 +1,43 @@
+footer{
+    margin-top:50px;
+    padding:50px 0;
+    bottom: 0;
+    min-height: 20vh;
+    background-color: rgb(4, 4, 69);
+
+    #contact{
+     display:flex;
+     flex-direction: column;
+
+     ul{
+         margin: 50px auto;
+         display: flex;
+         justify-content: space-around;
+        }
+    }
+}
+
+@media (min-width: 700px){
+    footer{
+        #contact{
+            flex-direction: row !important;
+            justify-content: space-between;
+            gap:50px;
+            
+            ul{
+                justify-content: space-between;
+            }
+        }
+        .contactText{
+            width: 100%;
+
+        }
+        .icons img:hover{            
+        filter: drop-shadow(2px 2px 2px orange);
+        }
+
+        form{
+            max-width: 60%;
+        }
+    }
+}

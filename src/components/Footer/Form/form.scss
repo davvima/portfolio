@@ -1,0 +1,39 @@
+form{
+    width: 100%;
+    
+    h2{
+        color: white;
+    }
+
+    input, textarea, button{
+        width: 100%;
+        min-height: 2em;
+        margin: 10px auto;
+        padding: 10px;
+
+        border:1px solid white;
+        border-radius: 10px;
+    }
+
+    .error{
+        border: 3px solid red;
+        margin-bottom: 0;
+    }
+
+    .textError{
+        color: orange;
+        font-size: .8em;
+        text-align: right;
+        margin-top:0;
+    }
+
+    button:disabled{
+        background-color:gray !important;
+        color: darkgray;
+        box-shadow: none;
+        cursor:none;
+    }
+    button:disabled:hover{
+        transform: none !important;
+    }
+}
