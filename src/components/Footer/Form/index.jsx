@@ -15,7 +15,7 @@ const Form = () => {
         email:"",
         message:"",
     })
-    const [errors, setErrors] = useState({name: 'Se requiere un Nombre'})
+    const [errors, setErrors] = useState({name: 'A name is required'})
     const [touched, setTouched] = useState({
         name:false,
         email:false,
@@ -81,21 +81,21 @@ const Form = () => {
 
        
         if(!name){
-            errors.name = 'Se requiere un Nombre'
+            errors.name = 'A name is required'
         }else if (name.length<4){
-            errors.name = 'Agrega un nombre con más de 3 caracteres'
+            errors.name = 'Enter a name with more than 3 characters'
         }
 
         if(!email){
-            errors.email = 'Debes agregar una email'
+            errors.email = 'You must add an email'
         }else if(!regexEmail.test(email)){
-            errors.email = 'Ingresa un formato de email válido'
+            errors.email = 'Enter a valid email format'
         }
 
         if (!message){
-            errors.message = 'Escribe tu mensaje'
+            errors.message = 'Write a message'
         }else if(message.length<10){
-            errors.message = 'Escribe un mensaje con más de 10 caracteres'
+            errors.message = 'Write a message with more than 10 characters'
         }
     
       return errors

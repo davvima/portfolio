@@ -10,7 +10,7 @@ export const data = [
         title:'PlayApp',
         image:imageVideogames,
         description:<p>"PlayApp" is a Single Page Application (SPA) developed as part of a 3-week challenge at Henry Bootcamp.<br /><br />
-        • I used React for the Front End and Redux for state management.<br />
+        • I used React on the Front End and Redux for state management.<br />
         • The project includes:<br />
         - A search bar that finds videgames by its name<br />
         - Pagination that shows 15 different videogames per page. <br />
@@ -28,7 +28,7 @@ export const data = [
         title:'FoodApp',
         image:imageFood,
         description:<p>'FoodApp' is a Single Page Application (SPA) developed as a personal project.<br /><br />
-        • I used React for the Front End and Redux for state management.<br />
+        • I used React on the Front End and Redux for state management.<br />
         • The project includes:<br />
         - A search bar that finds recipes by its name<br />
         - Pagination that shows 9 different recipes per page. <br />
@@ -45,7 +45,7 @@ export const data = [
         title:'Netglix',
         image:imageNetglix,
         description:<p>'Netglix', is a Single Page Application (SPA) developed as a personal project.<br /><br />
-        • I used React for the Front End and Redux for state management. All components were developed with pure CSS.<br />
+        • I used React on the Front End and Redux for state management. All components were developed with pure CSS.<br />
         • The SPA consumes data from the Movie DataBase API through a backend developed in Node JS, using Express.<br />
         • For the database I used MySQL.<br />
         • The project includes functionalities such as a register and login page, a search input, a details page to see information of the selected movie, and allows you to create new content and manage users through an administration panel.</p>,
