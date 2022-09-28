@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
 }
 
-button{
+button, .button{
     width: 70%;
     padding: 10px 0;
     margin: 30px auto;
@@ -39,6 +39,8 @@ button{
     border: 1px solid orange;
     color:white;
     box-shadow: 2px 2px 5px 0px orange;
+
+    text-align: center;
 
     
     cursor: pointer;

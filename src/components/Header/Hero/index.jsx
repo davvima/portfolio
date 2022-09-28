@@ -14,12 +14,14 @@ const Hero = () => {
                      in the Virtual World.</h1>
                  
              </div>
-             <button>Get in Touch</button>
+             <a className="button" href='#contact'>
+             Get in Touch
+             </a>
             </div>
 
-            <div className="image">
+            {/* <div className="image">
                 
-            </div>
+            </div> */}
             
         </section>
     );

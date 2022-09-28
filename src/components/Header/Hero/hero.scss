@@ -1,5 +1,7 @@
 .hero{
     margin-top: 100px !important;
+    display: flex;
+    justify-content: center;
 
     .name{
         color:orange
@@ -18,8 +20,6 @@
 
 @media (min-width:900px){
     .hero{
-        display:flex;
-        justify-content:space-between;
 
         h1{
             font-size: 4em;
