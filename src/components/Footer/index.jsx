@@ -4,7 +4,7 @@ import Form from './Form';
 import github from '../../media/icons/github.png'
 import linkedin from '../../media/icons/linkedin.png'
 import pdf from '../../media/icons/pdf.png'
-import fileCV from '../../media/files/CV-David Freites-Frontend_Developer.pdf'
+import fileCV from '../../media/files/CV David Freites-Frontend Developer.pdf'
 
 import './footer.scss'
 
